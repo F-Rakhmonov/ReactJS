@@ -1,15 +1,15 @@
 // import { useState } from "react";
-// import TravelList from "./travel-list/TravelList";
+import TravelList from "./travel-list/TravelList";
 // import FlashCard from "./flash-card/FlashCard";
-import EatNSplit from "./eat-n-split/EatNSplit";
+// import EatNSplit from "./eat-n-split/EatNSplit";
 
 function App() {
   return (
     <div>
-      {/* <TravelList /> */}
+      <TravelList />
       {/* <FlashCard /> */}
       {/* <Counter /> */}
-      <EatNSplit />
+      {/* <EatNSplit /> */}
     </div>
   );
 }
